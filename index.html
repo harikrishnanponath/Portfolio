@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harikrishnan Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Splash Screen
+  <div id="splash-screen">
+    <img src="android_animation.gif" alt="Android Logo" id="android-logo" />
+    <h2 id="enter-text"></h2>
+  </div> -->
+  <div id="particles-js"> <!-- Particles Background --></div>
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="logowhite.png" alt="Hari's Logo" />
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact">
+      <button class="btn">Contact Me</button>
+    </a>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1 class="fade-in">Hi, It's <span>Harikrishnan</span></h1>
+      <h3 id="typing-effect"></h3>
+      <p class="fade-in">
+        Passionate about turning innovative ideas into high-performance Android apps, I specialize in creating
+        seamless, user-centric experiences that stand out in a crowded market. With a keen eye for detail and
+        a focus on cutting-edge technologies, I deliver apps that are not only functional but also intuitive
+        and scalable.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/harikrishnanponath" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/harikrishnan-ponath-gopinadhan-57962b267" target="_blank">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+
+        <!-- <a href="https://www.instagram.com/imharikrrish" target="_blank">
+          <i class="bx bxl-instagram-alt"></i>
+        </a> -->
+      </div>
+
+      <div class="btn-group">
+        <a href="https://drive.google.com/file/d/1JhqJda2ATnRojBrNqqgnTYhbufaEzgen/view?usp=drive_link"
+          class="btn">Resume</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="hari_resize.jpg" alt="" />
+    </div>
+  </section>
+
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="hariOld.jpg" alt="" />
+    </div>
+
+    <div class="about-content">
+      <h2>About <span>Me</span></h2>
+      <p>
+        Hi, I'm Harikrishnan Ponath Gopinadhan, an Android Developer with more than 2 years of experience in
+        creating high-quality mobile applications. I specialize in building intuitive and scalable apps that
+        provide an exceptional user experience. I am passionate about continuous learning and always look forward
+        to solving complex challenges with elegant solutions.
+      </p>
+      </p>
+      <a href="https://drive.google.com/file/d/1JhqJda2ATnRojBrNqqgnTYhbufaEzgen/view?usp=sharing" class="btn"
+        target="_blank">Resume</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+
+    <div class="services-container">
+     
+      <div class="service-box">
+        <div class="service-info">
+          
+          <i class="bx bxl-android"></i>
+          <h4>Android Development</h4>
+          <p>
+            I specialize in developing dynamic and intuitive Android applications,
+            focusing on seamless user experiences and high performance. From concept to deployment,
+            I create responsive, scalable mobile solutions using Kotlin, Jetpack libraries, and modern Android
+            tools. Whether building from scratch or enhancing existing projects, I prioritize user-centric design,
+            robust functionality, and long-term app performance.</p>
+        </div>
+      </div>
+
+   
+      <div class="service-box">
+        <div class="service-info">
+          
+          <i class="bx bx-code"></i>
+          <h4>Web Development</h4>
+          <p>
+            I offer expert web development services, specializing in responsive, visually
+            appealing websites that align with both user needs and business goals. Whether
+            you need a sleek landing page or a dynamic web application, I bring your ideas to
+            life using modern web technologies. I focus on creating websites that are aesthetically
+            pleasing, highly functional, and optimized for performance, ensuring a smooth user experience
+            and scalable, long-lasting solutions.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-box">
+      <div class="project-card">
+        <img src="projects/movieQ.png" alt="" />
+        <h3>MovieQ</h3>
+        <p>
+          A sleek Android app built with Kotlin, MovieQ allows users to browse the latest and upcoming movies,
+          as well as search for movies across various sources. Leveraging Retrofit for efficient API interactions,
+          it provides a seamless movie discovery experience. </p>
+        <div class="btn" id="review-movieq-btn">Review Project</div>
+      </div>
+
+      <div class="project-card">
+        <img src="projects/newsing.png" alt="" />
+        <h3>Newsing</h3>
+        <p>
+          A user-friendly Android app that fetches the latest news articles from a remote API,
+          stores them locally with Room Database, and offers a smooth browsing experience for users to stay updated.
+        </p>
+        <div class="btn" id="review-newsing-btn">Review Project</div>
+      </div>
+
+      <div class="project-card">
+        <img src="projects/booksify.png" alt="" />
+        <h3>Booksify</h3>
+        <p>
+          A full-stack web application for managing a book collection,
+          built with React on the frontend and Spring Boot on the backend. Users can easily add, update,
+          and browse their books in a sleek, responsive interface.
+        </p>
+        <div class="btn" id="review-booksify-btn">Review Project</div>
+      </div>
+
+      <!-- <div class="project-card">
+          <img src="project4.png" alt="" />
+          <h3>Project 4</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            optio labore autem ullam laboriosam! Saepe obcaecati vitae
+            reprehenderit ipsa a consequatur eum mollitia illum nesciunt dolorem
+            aut, eaque eos repudiandae.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="project5.png" alt="" />
+          <h3>Project 5</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            optio labore autem ullam laboriosam! Saepe obcaecati vitae
+            reprehenderit ipsa a consequatur eum mollitia illum nesciunt dolorem
+            aut, eaque eos repudiandae.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="project6.png" alt="" />
+          <h3>Project 6</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            optio labore autem ullam laboriosam! Saepe obcaecati vitae
+            reprehenderit ipsa a consequatur eum mollitia illum nesciunt dolorem
+            aut, eaque eos repudiandae.
+          </p>
+          <div class="btn">Review Project</div>
+        </div> -->
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formspree.io/f/xrbelgdy" method="POST">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" name="fullName" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="input-box">
+          <input type="number" name="phone" placeholder="Phone Number" />
+          <input type="text" name="subject" placeholder="Subject" required />
+        </div>
+      </div>
+      <div class="input-group-2">
+        <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://github.com/harikrishnanponath" target="_blank">
+        <i class="bx bxl-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/harikrishnan-ponath-gopinadhan-57962b267" target="_blank">
+        <i class="bx bxl-linkedin-square"></i>
+      </a>
+
+      <a href="https://www.instagram.com/imharikrrish" target="_blank">
+        <i class="bx bxl-instagram-alt"></i>
+      </a>
+
+    </div>
+
+    <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <p class="copyright">© Hari | All Rights Reserved</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
